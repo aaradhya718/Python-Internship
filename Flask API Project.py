@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/")  # for redirecting the oage u want to land like homepage
+@app.route("/")  
 def home():
     return"""
     
@@ -10,7 +10,7 @@ def home():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Homepage - [Chitransh]</title>
+    <title>My Personal Homepage - [Aaradhya Bansal]</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,12 +18,12 @@ def home():
             padding: 0;
             background-color: #f7f7f7;
             color: #333;
-            line-height: 1.6;
+            line-height: 1.5;
         }
         .container {
-            width: 80%;
-            margin: 30px auto;
-            padding: 20px;
+            width: 70%;
+            margin: 39px auto;
+            padding: 25px;
             background-color: white;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
@@ -65,7 +65,7 @@ def home():
     <div class="container">
         
         <header>
-            <h1>Hello, I'm [Chitransh]!</h1>
+            <h1>Hello, I'm [Aaradhya]!</h1>
             <p><strong>[Programmer] | Enthusiast of Technology and Innovation</strong></p>
         </header>
 
@@ -104,4 +104,5 @@ def home():
 </html>
     """
 if __name__=='__main__':
+
     app.run()
