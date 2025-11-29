@@ -1,2 +1,2 @@
-# Python-Internship
-I have made some python based projects during my training at LinuxWorld
+# Python-Projects
+Projects I have made during Linuxworld Training Programme.
